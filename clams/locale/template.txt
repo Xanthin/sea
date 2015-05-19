@@ -1,0 +1,10 @@
+# Template
+
+Sandalgae = 
+Dirtalgae = 
+Used sandalgae = 
+Used dirtalgae = 
+White shell = 
+whiteshell activated! = 
+Collected algae = 
+Crushed white shell = 

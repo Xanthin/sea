@@ -1,0 +1,20 @@
+# Translation by Xanthin
+
+Cyan Coral = Türkise Koralle
+Magenta Coral = Magenta Koralle
+Aqua Coral = Aqua Koralle
+Lime Coral = Gelbgrüne Koralle
+Skyblue Coral = Himmelblaue Koralle
+Redviolet Coral = Rotviolette Koralle
+Sea coral sand cyan = Seekorallensand Türkis
+Sea coral dirt cyan = Seekorallenerde Türkis
+Sea coral sand magenta = Seekorallensand Magenta
+Sea coral dirt magenta = Seekorallenerde Magenta
+Sea coral sand aqua = Seekorallensand Aqua
+Sea coral dirt aqua = Seekorallenerde Aqua
+Sea coral sand lime = Seekorallensand Gelbgrün
+Sea coral dirt lime = Seekorallenerde Gelbgrün
+Sea coral sand skyblue = Seekorallensand Himmelblau
+Sea coral dirt skyblue = Seekorallenerde Himmelblau
+Sea coral sand redviolet = Seekorallensand Rotviolett
+Sea coral dirt redviolet = Seekorallenerde Rotviolett

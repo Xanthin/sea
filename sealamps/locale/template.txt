@@ -1,0 +1,4 @@
+# Template
+
+Sea torch = 
+Sea lantern = 

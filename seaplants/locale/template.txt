@@ -1,0 +1,17 @@
+# Template
+
+Green Kelp = 
+Green Kelp middle = 
+Brown Kelp = 
+Brown Kelp middle = 
+Green Seagrass = 
+Red Seagrass = 
+Sea plants sand kelp green = 
+Sea plants dirt kelp green = 
+Sea plants sand kelp brown = 
+Sea plants dirt kelp brown = 
+Sea plants sand seagrass green = 
+Sea plants dirt seagrass green = 
+Sea plants sand seagrass red = 
+Sea plants dirt seagrass red = 
+Sea salad mix = 

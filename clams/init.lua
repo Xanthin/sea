@@ -1,7 +1,15 @@
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 -- NODES
 
 minetest.register_node("clams:sandalgae", {
-	description = "Sandalgae",
+	description = S("Sandalgae"),
 	tiles = {"default_sand.png^clams_algae.png"},
 	paramtype = "light",
 	is_ground_content = true,
@@ -20,7 +28,7 @@ minetest.register_node("clams:sandalgae", {
 })
 
 minetest.register_node("clams:dirtalgae", {
-	description = "Dirtalgae",
+	description = S("Dirtalgae"),
 	tiles = {"default_dirt.png^clams_algae.png"},
 	paramtype = "light",
 	is_ground_content = true,
@@ -39,7 +47,7 @@ minetest.register_node("clams:dirtalgae", {
 })
 
 minetest.register_node("clams:sandalgaeused", {
-	description = "Used sandalgae",
+	description = S("Used sandalgae"),
 	tiles = {"default_sand.png^clams_algaeused.png"},
 	inventory_image = {"default_sand.png^clams_algaeused.png"},
 	is_ground_content = true,
@@ -48,7 +56,7 @@ minetest.register_node("clams:sandalgaeused", {
 })
 
 minetest.register_node("clams:dirtalgaeused", {
-	description = "Used dirtalgae",
+	description = S("Used dirtalgae"),
 	tiles = {"default_dirt.png^clams_algaeused.png"},
 	inventory_image = {"default_dirt.png^clams_algaeused.png"},
 	is_ground_content = true,
@@ -64,7 +72,7 @@ minetest.register_node("clams:dirtalgaeused", {
 
 
 minetest.register_entity("clams:whiteshell", {
-	description="White shell",
+	description= S("White shell"),
 	hp_max = 15,
 	physical = true,
 	collisionbox = {-0.2,-0.2,-0.2, 0.2,0.2,0.2},
@@ -81,7 +89,7 @@ minetest.register_entity("clams:whiteshell", {
 	phasetimer = 0,
 
 	on_activate = function(self, staticdata)
-		minetest.log("whiteshell activated!")
+		minetest.log("action", S("whiteshell activated!"))
 	end,
 
 	on_step = function(self, dtime)
@@ -140,12 +148,12 @@ minetest.register_entity("clams:whiteshell", {
 
 
 minetest.register_craftitem("clams:collectedalgae", {
-	description = "Collected algae",
+	description = S("Collected algae"),
 	inventory_image = "clams_collectedalgae.png",
 })
 
 minetest.register_craftitem("clams:crushedwhite", {
-	description = "Crushed white shell",
+	description = S("Crushed white shell"),
 	inventory_image = "clams_crushedwhite.png",
 })
 

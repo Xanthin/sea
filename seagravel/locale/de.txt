@@ -1,0 +1,24 @@
+# Translation by Xanthin
+
+Sea gravel = Seekies
+Sea gravel cyan = Türkiser Seekies
+Sea gravel magenta = Magenta Seekies
+Sea gravel lime = Gelbgrüner Seekies
+Sea gravel aqua = Aqua Seekies
+Sea gravel skyblue = Himmelblauer Seekies
+Sea gravel redviolet = Rotvioletter Seekies
+
+Seagravel stair = Seekiestreppe
+Seagravel slab = Seekiesstufe
+Seagravel stair cyan = Türkise Seekiestreppe
+Seagravel slab cyan = Türkise Seekiesstufe
+Seagravel stair magenta = Magenta Seekiestreppe
+Seagravel slab magenta = Magenta Seekiesstufe
+Seagravel stair lime = Gelbgrüne Seekiestreppe
+Seagravel slab lime = Gelbgrüne Seekiesstufe
+Seagravel stair aqua = Aqua Seekiestreppe
+Seagravel slab aqua = Aqua Seekiesstufe
+Seagravel stair skyblue = Himmelblaue Seekiestreppe
+Seagravel slab skyblue = Himmelblaue Seekiesstufe
+Seagravel stair redviolet = Rotviolette Seekiestreppe
+Seagravel slab redviolet = Rotviolette Seekiesstufe

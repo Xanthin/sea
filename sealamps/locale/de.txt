@@ -1,0 +1,4 @@
+# Translation by Xanthin
+
+Sea torch = Seefackel
+Sea lantern = Seelaterne

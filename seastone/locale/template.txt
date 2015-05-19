@@ -1,0 +1,24 @@
+# Template
+
+Seastone = 
+Seastone cyan = 
+Seastone magenta = 
+Seastone lime = 
+Seastone aqua = 
+Seastone skyblue = 
+Seastone redviolet = 
+
+Seastone stair = 
+Seastone slab = 
+Seastone stair cyan = 
+Seastone slab cyan = 
+Seastone stair magenta = 
+Seastone slab magenta = 
+Seastone stair lime = 
+Seastone slab lime = 
+Seastone stair aqua = 
+Seastone slab aqua = 
+Seastone stair skyblue = 
+Seastone slab skyblue = 
+Seastone stair redviolet = 
+Seastone slab redviolet = 

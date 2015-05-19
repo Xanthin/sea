@@ -1,0 +1,11 @@
+# Translation by Xanthin
+
+Sand for the wooden ship = Sand für das Holzschiff
+Dirt for the U-boot = Erde für das U-Boot
+Wooden ship chest = Holzschifftruhe
+Woodship chest = Holzschifftruhe
+Normal chest = Normale Truhe
+@1 moves stuff in chest at @2 = @1 bewegt Zeug in der Truhe bei @2
+@1 moves stuff to chest at @2 = @1 verlagert Zeug in die Truhe bei @2
+@1 takes stuff from chest at @2 = @1 nimmt Zeug aus der Truhe bei @2
+U-boot chest = U-Boottruhe

@@ -1,0 +1,24 @@
+# Translation by Xanthin
+
+Seastone = Seestein
+Seastone cyan = Türkiser Seestein
+Seastone magenta = Magenta Seestein
+Seastone lime = Gelbgrüner Seestein
+Seastone aqua = Aqua Seestein
+Seastone skyblue = Himmelblauer Seestein
+Seastone redviolet = Rotvioletter Seestein
+
+Seastone stair = Seesteintreppe
+Seastone slab = Seesteinstufe
+Seastone stair cyan = Türkise Seesteintreppe
+Seastone slab cyan = Türkise Seesteinstufe
+Seastone stair magenta = Magenta Seesteintreppe
+Seastone slab magenta = Magenta Seesteinstufe
+Seastone stair lime = Gelbgrüne Seesteintreppe
+Seastone slab lime = Gelbgrüne Seesteinstufe
+Seastone stair aqua = Aqua Seesteintreppe
+Seastone slab aqua = Aqua Seesteinstufe
+Seastone stair skyblue = Himmelblaue Seesteintreppe
+Seastone slab skyblue = Himmelblaue Seesteinstufe
+Seastone stair redviolet = Rotviolette Seesteintreppe
+Seastone slab redviolet = Rotviolette Seesteinstufe

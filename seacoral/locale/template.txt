@@ -1,0 +1,20 @@
+# Template
+
+Cyan Coral = 
+Magenta Coral = 
+Aqua Coral = 
+Lime Coral = 
+Skyblue Coral = 
+Redviolet Coral =
+Sea coral sand cyan =
+Sea coral dirt cyan =
+Sea coral sand magenta = 
+Sea coral dirt magenta = 
+Sea coral sand aqua = 
+Sea coral dirt aqua = 
+Sea coral sand lime = 
+Sea coral dirt lime = 
+Sea coral sand skyblue = 
+Sea coral dirt skyblue = 
+Sea coral sand redviolet = 
+Sea coral dirt redviolet = 

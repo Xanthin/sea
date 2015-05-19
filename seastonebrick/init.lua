@@ -1,8 +1,16 @@
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 -- NODES
 
 
 minetest.register_node("seastonebrick:seastonebrick", {
-	description = "Seastone brick",
+	description = S("Seastone brick"),
 	tiles = {"seastonebrick_seastonebrick.png"},
 	is_ground_content = true,
 	groups = {cracky=2, stone=1},
@@ -11,7 +19,7 @@ minetest.register_node("seastonebrick:seastonebrick", {
 
 
 minetest.register_node("seastonebrick:seastonebrick_cyan", {
-	description = "Seastone brick cyan",
+	description = S("Seastone brick cyan"),
 	tiles = {"seastonebrick_seastonebrick_cyan.png"},
 	is_ground_content = true,
 	groups = {cracky=2, stone=1},
@@ -19,7 +27,7 @@ minetest.register_node("seastonebrick:seastonebrick_cyan", {
 })
 
 minetest.register_node("seastonebrick:seastonebrick_magenta", {
-	description = "Seastone brick magenta",
+	description = S("Seastone brick magenta"),
 	tiles = {"seastonebrick_seastonebrick_magenta.png"},
 	is_ground_content = true,
 	groups = {cracky=2, stone=1},
@@ -27,7 +35,7 @@ minetest.register_node("seastonebrick:seastonebrick_magenta", {
 })
 
 minetest.register_node("seastonebrick:seastonebrick_lime", {
-	description = "Seastone brick lime",
+	description = S("Seastone brick lime"),
 	tiles = {"seastonebrick_seastonebrick_lime.png"},
 	is_ground_content = true,
 	groups = {cracky=2, stone=1},
@@ -35,7 +43,7 @@ minetest.register_node("seastonebrick:seastonebrick_lime", {
 })
 
 minetest.register_node("seastonebrick:seastonebrick_aqua", {
-	description = "Seastone brick aqua",
+	description = S("Seastone brick aqua"),
 	tiles = {"seastonebrick_seastonebrick_aqua.png"},
 	is_ground_content = true,
 	groups = {cracky=2, stone=1},
@@ -43,7 +51,7 @@ minetest.register_node("seastonebrick:seastonebrick_aqua", {
 })
 
 minetest.register_node("seastonebrick:seastonebrick_skyblue", {
-	description = "Seastone brick skyblue",
+	description = S("Seastone brick skyblue"),
 	tiles = {"seastonebrick_seastonebrick_skyblue.png"},
 	is_ground_content = true,
 	groups = {cracky=2, stone=1},
@@ -51,7 +59,7 @@ minetest.register_node("seastonebrick:seastonebrick_skyblue", {
 })
 
 minetest.register_node("seastonebrick:seastonebrick_redviolet", {
-	description = "Seastone brick redviolet",
+	description = S("Seastone brick redviolet"),
 	tiles = {"seastonebrick_seastonebrick_redviolet.png"},
 	is_ground_content = true,
 	groups = {cracky=2, stone=1},
@@ -65,50 +73,50 @@ minetest.register_node("seastonebrick:seastonebrick_redviolet", {
 stairs.register_stair_and_slab("seastonebrick", "seastonebrick:seastonebrick",
 		{cracky=3, stone=1},
 		{"seastonebrick_seastonebrick.png"},
-		"Seastonebrick stair",
-		"Seastonebrick slab",
+		S("Seastonebrick stair"),
+		S("Seastonebrick slab"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastonebrick_cyan", "seastonebrick:seastonebrick_cyan",
 		{cracky=3, stone=1},
 		{"seastonebrick_seastonebrick_cyan.png"},
-		"Seastonebrick stair cyan",
-		"Seastonebrick slab cyan",
+		S("Seastonebrick stair cyan"),
+		S("Seastonebrick slab cyan"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastonebrick_magenta", "seastonebrick:seastonebrick_magenta",
 		{cracky=3, stone=1},
 		{"seastonebrick_seastonebrick_magenta.png"},
-		"Seastonebrick stair magenta",
-		"Seastonebrick slab magenta",
+		S("Seastonebrick stair magenta"),
+		S("Seastonebrick slab magenta"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastonebrick_lime", "seastonebrick:seastonebrick_lime",
 		{cracky=3, stone=1},
 		{"seastonebrick_seastonebrick_lime.png"},
-		"Seastonebrick stair lime",
-		"Seastonebrick slab lime",
+		S("Seastonebrick stair lime"),
+		S("Seastonebrick slab lime"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastonebrick_aqua", "seastonebrick:seastonebrick_aqua",
 		{cracky=3, stone=1},
 		{"seastonebrick_seastonebrick_aqua.png"},
-		"Seastonebrick stair aqua",
-		"Seastonebrick slab aqua",
+		S("Seastonebrick stair aqua"),
+		S("Seastonebrick slab aqua"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastonebrick_skyblue", "seastonebrick:seastonebrick_skyblue",
 		{cracky=3, stone=1},
 		{"seastonebrick_seastonebrick_skyblue.png"},
-		"Seastonebrick stair skyblue ",
-		"Seastonebrick slab skyblue",
+		S("Seastonebrick stair skyblue"),
+		S("Seastonebrick slab skyblue"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastonebrick_redviolet", "seastonebrick:seastonebrick_redviolet",
 		{cracky=3, stone=1},
 		{"seastonebrick_seastonebrick_redviolet.png"},
-		"Seastonebrick stair redviolet",
-		"Seastonebrick slab redviolet",
+		S("Seastonebrick stair redviolet"),
+		S("Seastonebrick slab redviolet"),
 		default.node_sound_stone_defaults())
 
 

@@ -1,0 +1,23 @@
+# Template
+
+Sea cobblestone = 
+Sea cobblestone cyan = 
+Sea cobblestone magenta = 
+Sea cobblestone lime = 
+Sea cobblestone aqua = 
+Sea cobblestone skyblue = 
+Sea cobblestone redviolet = 
+Seacobble stair = 
+Seacobble slab = 
+Seacobble stair cyan = 
+Seacobble slab cyan = 
+Seacobble stair magenta = 
+Seacobble slab magenta = 
+Seacobble stair lime = 
+Seacobble slab lime = 
+Seacobble stair aqua = 
+Seacobble slab aqua = 
+Seacobble stair skyblue = 
+Seacobble slab skyblue = 
+Seacobble stair redviolet = 
+Seacobble slab redviolet = 

@@ -1,7 +1,15 @@
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 -- NODES
 
 minetest.register_node("sealamps:torch", {
-	description = "Sea torch",
+	description = S("Sea torch"),
 	drawtype = "torchlike",
 	tiles = {
 		{name="sealamps_torch_on_floor_animated.png", animation={type="vertical_frames", aspect_w=16, aspect_h=16, length=3.0}},
@@ -27,7 +35,7 @@ minetest.register_node("sealamps:torch", {
 })
 
 minetest.register_node("sealamps:lantern", {
-	description = "Sea lantern",
+	description = S("Sea lantern"),
 	drawtype = "torchlike",
 	tiles = {
 		{name="sealamps_lantern_on_floor.png"},

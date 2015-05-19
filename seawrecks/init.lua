@@ -1,8 +1,16 @@
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 -- NODES
 
 
 minetest.register_node("seawrecks:woodship", {
-	description = "Sand for the wooden ship",
+	description = S("Sand for the wooden ship"),
 	tiles = {"default_sand.png"},
 	is_ground_content = true,
 	groups = {crumbly=3, falling_node=1, sand=1, soil=1, not_in_creative_inventory=1},
@@ -10,7 +18,7 @@ minetest.register_node("seawrecks:woodship", {
 })
 
 minetest.register_node("seawrecks:uboot", {
-	description = "Dirt for the U-boot",
+	description = S("Dirt for the U-boot"),
 	tiles = {"default_dirt.png"},
 	is_ground_content = true,
 	groups = {crumbly=3,soil=1, not_in_creative_inventory=1},
@@ -18,7 +26,7 @@ minetest.register_node("seawrecks:uboot", {
 })
 
 minetest.register_node("seawrecks:woodshipchest", {
-	description = "Wooden ship chest",
+	description = S("Wooden ship chest"),
 	tiles = {"default_chest_top.png", "default_chest_top.png", "default_chest_side.png",
 		"default_chest_side.png", "default_chest_side.png", "default_chest_front.png"},
 	paramtype2 = "facedir",
@@ -33,7 +41,7 @@ minetest.register_node("seawrecks:woodshipchest", {
 			"size[8,9]"..
 			"list[current_name;main;0,0;8,4;]"..
 			"list[current_player;main;0,5;8,4;]")
-		meta:set_string("infotext", "Woodship chest")
+		meta:set_string("infotext", S("Woodship chest"))
 		local inv = meta:get_inventory()
 		inv:set_size("main", 8*4)
 meta:from_table({
@@ -42,7 +50,7 @@ meta:from_table({
 	},
 	fields = {
 	formspec = "size[8,9;]list[context;main;0,0;8,4;]list[current_player;main;0,5;8,4;]",
-	infotext = "Normal chest"
+	infotext = S("Normal chest")
 	}
 })
 	end,
@@ -52,21 +60,21 @@ meta:from_table({
 		return inv:is_empty("main")
 	end,
 	on_metadata_inventory_move = function(pos, from_list, from_index, to_list, to_index, count, player)
-		minetest.log("action", player:get_player_name()..
-				" moves stuff in chest at "..minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 moves stuff in chest at @2",
+		  player:get_player_name(), minetest.pos_to_string(pos)))
 	end,
 	on_metadata_inventory_put = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name()..
-				" moves stuff to chest at "..minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 moves stuff to chest at @2",
+		  player:get_player_name(), minetest.pos_to_string(pos)))
 	end,
 	on_metadata_inventory_take = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name()..
-				" takes stuff from chest at "..minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 takes stuff from chest at @2",
+		  player:get_player_name(), minetest.pos_to_string(pos)))
 	end,
 })
 
 minetest.register_node("seawrecks:ubootchest", {
-	description = "U-boot chest",
+	description = S("U-boot chest"),
 	tiles = {"default_chest_top.png", "default_chest_top.png", "default_chest_side.png",
 		"default_chest_side.png", "default_chest_side.png", "default_chest_front.png"},
 	paramtype2 = "facedir",
@@ -81,7 +89,7 @@ minetest.register_node("seawrecks:ubootchest", {
 			"size[8,9]"..
 			"list[current_name;main;0,0;8,4;]"..
 			"list[current_player;main;0,5;8,4;]")
-		meta:set_string("infotext", "U-boot chest")
+		meta:set_string("infotext", S("U-boot chest"))
 		local inv = meta:get_inventory()
 		inv:set_size("main", 8*4)
 meta:from_table({
@@ -90,7 +98,7 @@ meta:from_table({
 	},
 	fields = {
 	formspec = "size[8,9;]list[context;main;0,0;8,4;]list[current_player;main;0,5;8,4;]",
-	infotext = "Normal chest"
+	infotext = S("Normal chest")
 	}
 })
 	end,
@@ -100,16 +108,16 @@ meta:from_table({
 		return inv:is_empty("main")
 	end,
 	on_metadata_inventory_move = function(pos, from_list, from_index, to_list, to_index, count, player)
-		minetest.log("action", player:get_player_name()..
-				" moves stuff in chest at "..minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 moves stuff in chest at @2",
+		  player:get_player_name(), minetest.pos_to_string(pos)))
 	end,
 	on_metadata_inventory_put = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name()..
-				" moves stuff to chest at "..minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 moves stuff to chest at @2",
+		  player:get_player_name(), minetest.pos_to_string(pos)))
 	end,
 	on_metadata_inventory_take = function(pos, listname, index, stack, player)
-		minetest.log("action", player:get_player_name()..
-				" takes stuff from chest at "..minetest.pos_to_string(pos))
+		minetest.log("action", S("@1 takes stuff from chest at @2",
+		  player:get_player_name(), minetest.pos_to_string(pos)))
 	end,
 })
 

@@ -1,0 +1,39 @@
+# Translation by Xanthin
+
+Standard seaglass on = Standartseeglas an
+Seaglass yellow on = Gelbes Seeglas an
+Seaglass red on = Rotes Seeglas an
+Seaglass blue on = Blaues Seeglas an
+Seaglass white on = Weißes Seeglas an
+Seaglass black on = Schwarzes Seeglas an
+Standard seaglass off = Standartseeglas aus
+Seaglass yellow off = Gelbes Seeglas aus
+Seaglass red off = Rotes Seeglas aus
+Seaglass blue off = Blaues Seeglas aus
+Seaglass white off = Weißes Seeglas aus
+Seaglass black off = Schwarzes Seeglas aus
+
+Seaglass stair on = Seeglastreppe an
+Seaglass slab on = Seeglasstufe an
+Seaglass stair on yellow = Gelbe Seeglastreppe an
+Seaglass slab on yellow = Gelbe Seeglasstufe an
+Seaglass stair on red = Rote Seeglastreppe an
+Seaglass slab on red = Rote Seeglasstufe an
+Seaglass stair on blue = Blaue Seeglastreppe an
+Seaglass slab on blue = Blaue Seeglasstufe an
+Seaglass stair on white = Weiße Seeglastreppe an
+Seaglass slab on white = Weiße Seeglasstufe an
+Seaglass stair on black = Schwarze Seeglastreppe an
+Seaglass slab on black = Schwarze Seeglasstufe an
+Seaglass stair off = Seeglastreppe aus
+Seaglass slab off = Seeglasstufe aus
+Seaglass stair off yellow = Gelbe Seeglastreppe aus
+Seaglass slab off yellow = Gelbe Seeglasstufe aus
+Seaglass stair off red = Rote Seeglastreppe aus
+Seaglass slab off red = Rote Seeglasstufe aus
+Seaglass stair off blue = Blaue Seeglastreppe aus
+Seaglass slab off blue = Blaue Seeglasstufe aus
+Seaglass stair off white = Weiße Seeglastreppe aus
+Seaglass slab off white = Weiße Seeglasstufe aus
+Seaglass stair off black = Schwarze Seeglastreppe aus
+Seaglass slab off black = Schwarze Seeglasstufe aus

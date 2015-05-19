@@ -1,0 +1,10 @@
+# Translation by Xanthin
+
+Sandalgae = Sandalgen
+Dirtalgae = Erdalgen
+Used sandalgae = Verbrauchte Sandalgen
+Used dirtalgae = Verbrauchte Erdalgen
+White shell = Weiﬂe Muschel
+whiteshell activated! = Weisse Muschel aktiviert!
+Collected algae = Gesammelte Algen
+Crushed white shell = Zerbrochene weiﬂe Muschel

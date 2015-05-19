@@ -1,0 +1,23 @@
+# Translation by Xanthin
+
+Sea cobblestone = Seebruchstein
+Sea cobblestone cyan = Türkiser Seebruchstein
+Sea cobblestone magenta = Magenta Seebruchstein
+Sea cobblestone lime = Gelbgrüner Seebruchstein
+Sea cobblestone aqua = Aqua Seebruchstein
+Sea cobblestone skyblue = Himmelblauer Seebruchstein
+Sea cobblestone redviolet = Rotvioletter Seebruchstein
+Seacobble stair = Seebruchsteintreppe
+Seacobble slab = Seebruchsteinstufe
+Seacobble stair cyan = Türkise Seebruchsteintreppe
+Seacobble slab cyan = Türkise Seebruchsteinstufe
+Seacobble stair magenta = Magenta Seebruchsteintreppe
+Seacobble slab magenta = Magenta Seebruchsteinstufe
+Seacobble stair lime = Gelbgrüne Seebruchsteintreppe
+Seacobble slab lime = Gelbgrüne Seebruchsteinstufe
+Seacobble stair aqua = Aqua Seebruchsteintreppe
+Seacobble slab aqua = Aqua Seebruchsteinstufe
+Seacobble stair skyblue = Himmelblaue Seebruchsteintreppe
+Seacobble slab skyblue = Himmelblaue Seebruchsteinstufe
+Seacobble stair redviolet = Rotviolette Seebruchsteintreppe
+Seacobble slab redviolet = Rotviolette Seebruchsteinstufe

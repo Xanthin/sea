@@ -1,0 +1,17 @@
+# Translation by Xanthin
+
+Green Kelp = Grüner Kelp
+Green Kelp middle = Grüner Kelp Mitte
+Brown Kelp = Brauner Kelp
+Brown Kelp middle = Brauner Kelp Mitte
+Green Seagrass = Grünes Seegras
+Red Seagrass = Rotes Seegras
+Sea plants sand kelp green = Seepflanzensand Grüner Kelp
+Sea plants dirt kelp green = Seepflanzenerde Grüner Kelp
+Sea plants sand kelp brown = Seepflanzensand Brauner Kelp
+Sea plants dirt kelp brown = Seepflanzenerde Brauner Kelp
+Sea plants sand seagrass green = Seepflanzensand Grünes Seegras
+Sea plants dirt seagrass green = Seepflanzenerde Grünes Seegras
+Sea plants sand seagrass red = Seepflanzensand Rotes Seegras
+Sea plants dirt seagrass red = Seepflanzenerde Rotes Seegras
+Sea salad mix = Seesalatmix

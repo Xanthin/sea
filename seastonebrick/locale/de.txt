@@ -1,0 +1,24 @@
+# Translation by Xanthin
+
+Seastone brick = Seesteinziegel
+Seastone brick cyan = Türkise Seesteinziegel
+Seastone brick magenta = Magenta Seesteinziegel
+Seastone brick lime = Gelbgrüne Seesteinziegel
+Seastone brick aqua = Aqua Seesteinziegel
+Seastone brick skyblue = Himmelblaue Seesteinziegel
+Seastone brick redviolet = Rotviolette Seesteinziegel
+
+Seastonebrick stair = Seesteinziegeltreppe
+Seastonebrick slab = Seesteinziegelstufe
+Seastonebrick stair cyan = Türkise Seesteinziegeltreppe
+Seastonebrick slab cyan = Türkise Seesteinziegelstufe
+Seastonebrick stair magenta = Magenta Seesteinziegeltreppe
+Seastonebrick slab magenta = Magenta Seesteinziegelstufe
+Seastonebrick stair lime = Gelbgrüne Seesteinziegeltreppe
+Seastonebrick slab lime = Gelbgrüne Seesteinziegelstufe
+Seastonebrick stair aqua = Aqua Seesteinziegeltreppe
+Seastonebrick slab aqua = Aqua Seesteinziegelstufe
+Seastonebrick stair skyblue = Himmelblaue Seesteinziegeltreppe
+Seastonebrick slab skyblue = Himmelblaue Seesteinziegelstufe
+Seastonebrick stair redviolet = Rotviolette Seesteinziegeltreppe
+Seastonebrick slab redviolet = Rotviolette Seesteinziegelstufe

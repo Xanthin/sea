@@ -1,0 +1,39 @@
+# Template
+
+Standard seaglass on = 
+Seaglass yellow on = 
+Seaglass red on = 
+Seaglass blue on = 
+Seaglass white on = 
+Seaglass black on = 
+Standard seaglass off = 
+Seaglass yellow off = 
+Seaglass red off = 
+Seaglass blue off = 
+Seaglass white off = 
+Seaglass black off = 
+
+Seaglass stair on = 
+Seaglass slab on = 
+Seaglass stair on yellow = 
+Seaglass slab on yellow = 
+Seaglass stair on red = 
+Seaglass slab on red = 
+Seaglass stair on blue = 
+Seaglass slab on blue = 
+Seaglass stair on white = 
+Seaglass slab on white = 
+Seaglass stair on black = 
+Seaglass slab on black = 
+Seaglass stair off = 
+Seaglass slab off = 
+Seaglass stair off yellow = 
+Seaglass slab off yellow = 
+Seaglass stair off red = 
+Seaglass slab off red = 
+Seaglass stair off blue = 
+Seaglass slab off blue = 
+Seaglass stair off white = 
+Seaglass slab off white = 
+Seaglass stair off black = 
+Seaglass slab off black = 

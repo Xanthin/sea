@@ -1,7 +1,15 @@
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 -- NODES
 
 minetest.register_node("noairblocks:water_flowingx", {
-	description = "Flowing Waterx",
+	description = S("Flowing Waterx"),
 	inventory_image = minetest.inventorycube("default_water.png"),
 	drawtype = "flowingliquid",
 	tiles = {"default_water.png"},
@@ -36,7 +44,7 @@ minetest.register_node("noairblocks:water_flowingx", {
 })
 
 minetest.register_node("noairblocks:water_sourcex", {
-	description = "Water Sourcex",
+	description = S("Water Sourcex"),
 	inventory_image = minetest.inventorycube("default_water.png"),
 	drawtype = "liquid",
 	tiles = {

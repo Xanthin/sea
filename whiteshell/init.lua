@@ -1,8 +1,16 @@
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 -- NODES
 
 
 minetest.register_node("whiteshell:whiteshell", {
-	description = "White shell",
+	description = S("White shell"),
 	drawtype = "normal",
 --	tiles = {"default_desert_sand.png^clams_crushedwhite.png"},
 	tiles = {"default_desert_sand.png"},

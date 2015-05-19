@@ -1,0 +1,24 @@
+# Template
+
+Seastone brick = 
+Seastone brick cyan = 
+Seastone brick magenta = 
+Seastone brick lime = 
+Seastone brick aqua = 
+Seastone brick skyblue = 
+Seastone brick redviolet = 
+
+Seastonebrick stair = 
+Seastonebrick slab = 
+Seastonebrick stair cyan = 
+Seastonebrick slab cyan = 
+Seastonebrick stair magenta = 
+Seastonebrick slab magenta = 
+Seastonebrick stair lime = 
+Seastonebrick slab lime = 
+Seastonebrick stair aqua = 
+Seastonebrick slab aqua = 
+Seastonebrick stair skyblue = 
+Seastonebrick slab skyblue = 
+Seastonebrick stair redviolet = 
+Seastonebrick slab redviolet = 

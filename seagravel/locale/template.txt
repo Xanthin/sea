@@ -1,0 +1,24 @@
+# Template
+
+Sea gravel = 
+Sea gravel cyan = 
+Sea gravel magenta = 
+Sea gravel lime = 
+Sea gravel aqua = 
+Sea gravel skyblue = 
+Sea gravel redviolet = 
+
+Seagravel stair = 
+Seagravel slab = 
+Seagravel stair cyan = 
+Seagravel slab cyan = 
+Seagravel stair magenta = 
+Seagravel slab magenta = 
+Seagravel stair lime = 
+Seagravel slab lime = 
+Seagravel stair aqua = 
+Seagravel slab aqua = 
+Seagravel stair skyblue = 
+Seagravel slab skyblue = 
+Seagravel stair redviolet = 
+Seagravel slab redviolet = 

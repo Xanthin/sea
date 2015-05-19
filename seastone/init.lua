@@ -1,8 +1,16 @@
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if minetest.get_modpath("intllib") then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 -- NODES
 
 
 minetest.register_node("seastone:seastone", {
-	description = "Seastone",
+	description = S("Seastone"),
 	tiles = {"seastone_seastone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1},
@@ -11,7 +19,7 @@ minetest.register_node("seastone:seastone", {
 })
 
 minetest.register_node("seastone:seastone_cyan", {
-	description = "Seastone cyan",
+	description = S("Seastone cyan"),
 	tiles = {"seastone_seastone_cyan.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1;},
@@ -20,7 +28,7 @@ minetest.register_node("seastone:seastone_cyan", {
 })
 
 minetest.register_node("seastone:seastone_magenta", {
-	description = "Seastone magenta",
+	description = S("Seastone magenta"),
 	tiles = {"seastone_seastone_magenta.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1},
@@ -29,7 +37,7 @@ minetest.register_node("seastone:seastone_magenta", {
 })
 
 minetest.register_node("seastone:seastone_lime", {
-	description = "Seastone lime",
+	description = S("Seastone lime"),
 	tiles = {"seastone_seastone_lime.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1},
@@ -38,7 +46,7 @@ minetest.register_node("seastone:seastone_lime", {
 })
 
 minetest.register_node("seastone:seastone_aqua", {
-	description = "Seastone aqua",
+	description = S("Seastone aqua"),
 	tiles = {"seastone_seastone_aqua.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1},
@@ -47,7 +55,7 @@ minetest.register_node("seastone:seastone_aqua", {
 })
 
 minetest.register_node("seastone:seastone_skyblue", {
-	description = "Seastone skyblue",
+	description = S("Seastone skyblue"),
 	tiles = {"seastone_seastone_skyblue.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1},
@@ -56,7 +64,7 @@ minetest.register_node("seastone:seastone_skyblue", {
 })
 
 minetest.register_node("seastone:seastone_redviolet", {
-	description = "Seastone redviolet",
+	description = S("Seastone redviolet"),
 	tiles = {"seastone_seastone_redviolet.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1},
@@ -71,50 +79,50 @@ minetest.register_node("seastone:seastone_redviolet", {
 stairs.register_stair_and_slab("seastone", "seastone:seastone",
 		{cracky=3, stone=1},
 		{"seastone_seastone.png"},
-		"Seastone stair",
-		"Seastone slab",
+		S("Seastone stair"),
+		S("Seastone slab"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastone_cyan", "seastone:seastone_cyan",
 		{cracky=3, stone=1},
 		{"seastone_seastone_cyan.png"},
-		"Seastone stair cyan",
-		"Seastone slab cyan",
+		S("Seastone stair cyan"),
+		S("Seastone slab cyan"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastone_magenta", "seastone:seastone_magenta",
 		{cracky=3, stone=1},
 		{"seastone_seastone_magenta.png"},
-		"Seastone stair magenta",
-		"Seastone slab magenta",
+		S("Seastone stair magenta"),
+		S("Seastone slab magenta"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastone_lime", "seastone:seastone_lime",
 		{cracky=3, stone=1},
 		{"seastone_seastone_lime.png"},
-		"Seastone stair lime",
-		"Seastone slab lime",
+		S("Seastone stair lime"),
+		S("Seastone slab lime"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastone_aqua", "seastone:seastone_aqua",
 		{cracky=3, stone=1},
 		{"seastone_seastone_aqua.png"},
-		"Seastone stair aqua",
-		"Seastone slab aqua",
+		S("Seastone stair aqua"),
+		S("Seastone slab aqua"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastone_skyblue", "seastone:seastone_skyblue",
 		{cracky=3, stone=1},
 		{"seastone_seastone_skyblue.png"},
-		"Seastone stair skyblue ",
-		"Seastone slab skyblue",
+		S("Seastone stair skyblue"),
+		S("Seastone slab skyblue"),
 		default.node_sound_stone_defaults())
 
 stairs.register_stair_and_slab("seastone_redviolet", "seastone:seastone_redviolet",
 		{cracky=3, stone=1},
 		{"seastone_seastone_redviolet.png"},
-		"Seastone stair redviolet",
-		"Seastone slab redviolet",
+		S("Seastone stair redviolet"),
+		S("Seastone slab redviolet"),
 		default.node_sound_stone_defaults())
 
 

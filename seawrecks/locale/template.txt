@@ -1,0 +1,11 @@
+# Template
+
+Sand for the wooden ship = 
+Dirt for the U-boot = 
+Wooden ship chest = 
+Woodship chest = 
+Normal chest = 
+@1 moves stuff in chest at @2 = 
+@1 moves stuff to chest at @2 = 
+@1 takes stuff from chest at @2 = 
+U-boot chest = 
